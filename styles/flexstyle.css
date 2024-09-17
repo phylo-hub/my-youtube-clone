@@ -1,0 +1,146 @@
+p{
+    font-family: Roboto, Arial;
+    margin: 2px;
+}
+.flex-ex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    border-width: 2px;
+    border-style: solid;
+}
+.flex1{
+    background-color: blue;
+    color: white;
+    width: 75px;
+}
+.flex2{
+    background-color: orange;
+    width: 75px;
+}
+.flex3{
+    background-color: purple;
+    color: white;
+    width: 75px;
+}
+
+
+
+.notification-flex{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.number{
+    background-color: rgb(83, 83, 230);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius:17px;
+    color: white;
+    margin: 0px ;
+
+}
+.item-name{
+    font-weight: 400;
+    margin: 0px;
+    font-size: 12pt;
+}
+
+.number,
+.item-name{
+    margin-bottom: 15px;
+}
+
+.notification-group{
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    padding: 8px;
+    border-color: gray;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.exercise-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+    row-gap: 40px;
+}
+
+.profile-flex{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+}
+
+.follow-button{
+    background-color: rgb(96, 96, 235);
+    border-width: 0px;
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.profile-picture{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-width: 1px;
+    border-radius: 25px;
+}
+.picture-and-name{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 10px;
+}
+
+
+.facebook-header{
+
+    margin-top: 40px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    background-color: rgb(63, 63, 134);
+    align-items: center;
+}
+
+.home{
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.download-button{
+    background-color: rgb(63, 63, 134);
+    border-color: white;
+    color: white;
+    padding: 7px;
+    height: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.search-bar{
+    width: 400px;
+    margin-left:70px;
+    margin-right: 70px;
+    height: 25px;
+    border-width: 0px;
+    border-radius: 20px;
+    padding-left: 20px;
+
+}

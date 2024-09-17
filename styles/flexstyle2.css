@@ -1,0 +1,178 @@
+p{
+    margin: 0;
+    font-family: Roboto, Arial;
+}
+
+body{
+    padding-bottom: 1000px;
+}
+
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    width: 100px;
+    height: 50px;
+}
+.flex2{
+    background-color: lightgreen;
+    width: 200px;
+}
+.item1{
+    background-color: black;
+    width: 37px;
+    color: white;
+}
+
+.flex12{
+    background-color: lightblue;
+    width: 100px;
+    height: 50px;
+}
+.flex22{
+    display: flex;
+    background-color: lightgreen;
+    width: 200px;
+    justify-content: space-between;
+}
+.row1{
+    background-color: white;
+}
+.row2{
+    display: flex;
+    background-color: lightgreen;
+    align-items: center;
+}
+.inner-flex{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.row2-p{
+     background-color: black;
+     color: white;
+}
+
+
+
+
+.inbox-preview{
+    margin-top: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding-right: 15px;
+    box-shadow: 1px 2px 2px 1px;
+}
+.profile-picture{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.email-preview{
+    margin-top: 15px;
+    display: flex;
+}
+.email-description{
+    flex: 1;
+    margin-left: 10px;
+}
+.title-time{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 5px;
+}
+.email-title{
+    font-weight: 700;
+}
+.email-time{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6)
+}
+.email-headline{
+    font-weight: 700;
+    font-size: 14px;
+}
+.email-content-preview{
+    margin-top: 2px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6)
+}
+.inbox-title{
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6)
+    }
+
+
+    .twitter-post-preview{
+        margin-top: 15px;
+        display: flex;
+    }
+    .twitter-profile-picture{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+    }
+    .tweet-description{
+        flex: 1;
+        margin-left: 10px;
+    }
+    .twitter-name-and-handle{
+        display: flex;
+        justify-content: start;
+        margin-bottom: 5px;
+    }
+    .twitter-name{
+        font-weight: 700;
+    }
+    .twitter-handle{
+        margin-left: 3px;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.6)
+    }
+    .tweet-body{
+        margin-top: 2px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 1)
+    }
+    .tweet-attachment{
+        display: flex;
+        margin-top: 15px;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 15px;
+        border-color: rgba(0, 0, 0, 0.2);
+        margin-right: 10px;
+    }
+    .video-thumbnail{
+        width: 90px;
+        height: 90px;
+        border-top-left-radius: 14px;
+        border-bottom-left-radius:14px;
+        object-fit: cover;
+        }
+    .site-link{
+        margin-top: 15px;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.6)
+    }
+    .video-description{
+        margin-left: 15px;
+        font-weight: 450;
+    }
